@@ -258,3 +258,161 @@ print(f"{course} is {2 + 3} times better than the previous version.")
 course = "Python for Beginners"
 print(len(course))
 
+print(course.upper())
+print(course.lower())
+print(course)
+
+
+course.find("P")
+course.replace("Beginners", "Absolute Beginners")
+
+print(course.replace("P", "J"))
+
+print("Python" in course )
+print("python" in course )
+print("Hello, World!")
+print(10 + 3 * 2)
+
+len("Hello, World!")
+
+
+print(10/3)
+print(10//3)
+print(10 % 3)
+
+print(10 ** 3)
+
+x = 10
+x = x + 3
+print(x)
+
+x += 3
+print(x)
+
+x *= 3
+print(x)
+
+
+x = 10 + 3 * 2 ** 2
+print(x)
+
+
+x = 2.9
+
+print(round(x))
+
+is_hot = True
+
+if is_hot:
+    print("It's a hot day")
+    print("Drink plenty of water")
+else:
+    print("It's a cold day")
+    print("Wear warm clothes")
+print("Enjoy your day!")
+# This is a simple Python script that demonstrates variable assignment and printing to the console.
+print("Hello, World!")  
+
+price = 100000 
+has_good_credit = True
+
+if has_good_credit:
+    down_payment = 0.1 * price
+else:
+    down_payment = 0.2 * price
+print(f"Down payment: ${down_payment}")
+
+
+# This is a simple Python script that demonstrates variable assignment and printing to the console.
+print("Hello, World!")  
+print("Hello, World!")
+print("Hello, World!")
+
+if 1 + 1 == 2:
+    print("Math works!")   
+print("Hello, World!")
+print("Hello, World!")
+print("Hello, World!")  
+
+temperature = 35
+if temperature > 30:    
+    print("It's a hot day")
+    print("Drink plenty of water")
+elif temperature > 20:
+
+    print("It's a nice day")
+elif temperature > 10:
+    print("It's a bit cold")
+else:
+    print("It's cold")
+print("Enjoy your day!")
+# This is a simple Python script that demonstrates variable assignment and printing to the console.
+print("Hello, World!")
+
+
+if has_good_credit and not has_criminal_record:
+    print("Eligible for loan")
+# This is a simple Python script that demonstrates variable assignment and printing to the console.
+print("Hello, World!")      
+print("Hello, World!")
+print("Hello, World!")
+print("Hello, World!")  
+
+
+i = 1
+while i <= 5:
+    print(i * "*")
+    i = i + 1
+print("Done")
+# This is a simple Python script that demonstrates variable assignment and printing to the console.
+print("Hello, World!")
+print("Hello, World!")
+print("Hello, World!")
+print("Hello, World!")
+print("Hello, World!")              
+
+
+
+names = ["John", "Bob", "Mosh", "Sarah", "Mary"]
+print(names[0])
+print(names[-1])
+print(names[2:])
+print(names[:3])
+print(names[2:4])
+print(names[:])
+names[0] = "Jon"
+print(names[0])
+print(names)
+print(names)
+print(len(names))
+names.append("Peter")
+print(names)
+names.insert(0, "Paul")
+print(names)
+names.remove("Mosh")
+print(names)
+names.pop()
+print(names)
+print(names.index("Sarah"))
+print("Mosh" in names)
+print("Mary" in names)
+print("Hello, World!")
+
+numbers = [1, 2, 3, 4, 5]
+for item in numbers:
+    print(item) 
+for name in names:
+    print("Hello " + name)
+i = 0
+while i < len(names):
+    print(names[i])
+    i = i + 1
+for i in range(5):
+    print(i)
+for i in range(5, 10):
+    print(i)
+for i in range(5, 10, 2):
+    print(i)
+
+
+                
