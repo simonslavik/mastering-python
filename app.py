@@ -201,4 +201,60 @@ x = 1
 y = 2
 unit_price = 3.99
 
+print("Mosh Hamedani")
+
+print("o-----")
+
+print(" |||||")
+
+print("*" * 10)
+price = 10
+print(price)
+name = "Mosh"
+print(name)
+age = 20
+print(age)
+rating = 4.9
+print(rating)
+is_published = False
+print(is_published)
+print("Hello, World!")
+print("I am", age, "years old.")
+price = 19.99
+print("The price is $", price)
+first_name = "John"
+last_name = "Doe"
+print("My name is", first_name, last_name)
+is_student = True
+
+input("Press Enter to exit... ")
+print("Exiting the program. Goodbye!")
+print("Am I a student?", is_student)
+height = 5.9
+print("My height is", height, "feet")
+
+
+
+name = input("what is your name? ")
+favorite_color = input("What is your favorite color? ")
+print(name + " likes " + favorite_color)
+
+birth_year = int(input("Birth year: "))
+age = 2024 - birth_year
+print("Your age is: " + str(age))
+print("Hello, World!")
+
+weight_lbs = input("Weight (lbs): ")
+weight_kg = int(weight_lbs) * 0.453592
+print("Weight (kg): " + str(weight_kg))
+print("Hello, World!")
+birth_year = 2004
+
+course = "Python for Beginners"
+print(f"{course} is a great course!")
+print(f"{course} is {2 + 3} times better than the previous version.")
+
+
+course = "Python for Beginners"
+print(len(course))
 
