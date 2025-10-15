@@ -476,4 +476,209 @@ for x in range(4):
         print(f"({x}, {y})")
 print("Hello, World!")
 
+numbers = [5, 2, 5, 2, 2]
+for x_count in numbers:
+    print('x' * x_count)
+print("Hello, World!")      
+
+names = ["John", "Bob", "Mosh", "Sarah", "Mary"]
+
+print(names[-1])
+
+
+names[0] = "Jon"
+print(names)
+
+numbers = [1, 2, 3, 4, 5]
+max = max(numbers)
+
+print(max)
+
+print("Hello, World!")
+
+for x in numbers:
+    max = 0
+    if x > max:
+        max = x
+print(max)
+print("Hello, World!")  
+
+matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+print(matrix[0][1])
+
+for row in matrix:
+    for item in row:
+        print(item)
+print("Hello, World!")  
+
+numbers = [5, 2, 5, 2, 2]
+for x_count in numbers:
+    output = ''
+    for count in range(x_count):
+        output += 'x'
+    print(output)
+print("Hello, World!")
+def greet_user(first_name, last_name):
+    print(f"Hello {first_name} {last_name}")
+    print("Welcome aboard")
+greet_user("John", "Doe")
+greet_user("Mary", "Smith")
+greet_user("Jane", "Johnson")
+# This is a simple Python script that demonstrates variable assignment and printing to the console.
+print("Hello, World!")
+def square(number):
+    return number * number
+result = square(3)
+print(result)
+print("Hello, World!")
+def square(number):
+    return number * number
+print(square(3))
+print(square(4))
+print(square(5))
+
+
+numbers = [2, 3, 4, 5]
+numbers2 = numbers.copy()
+
+numbers.append(6)
+print(numbers)
+
+numbers = (1,2,3)
+numbers.count(1)
+numbers.index(2)
+print("Hello, World!")
+
+
+customer = {
+    "name": "John Smith",
+    "age": 30,
+    "is_verified": True
+}
+
+print(customer["name"])
+print(customer.get("birthdate", "Jan 1, 1990"))
+
+phone = input("Phone: ")
+digits_mapping = {
+    "1": "One",
+    "2": "Two",
+    "3": "Three",
+    "4": "Four",
+    "5": "Five",
+    "6": "Six",
+    "7": "Seven",
+    "8": "Eight",
+    "9": "Nine",
+}
+
+output = ""
+for ch in phone:
+    output += digits_mapping.get(ch, "!") + " "
+print(output)
+print("Hello, World!")
+message = input("> ")
+words = message.split(' ')
+emojis = {
+    ":)": "😊",
+    ":(": "😞"
+}   
+output = ""
+for word in words:
+    output += emojis.get(word, word) + " "
+print(output)
+print("Hello, World!")
+def emoji_converter(message):
+
+    words = message.split(' ')
+    emojis = {
+        ":)": "😊",
+        ":(": "😞"
+    }   
+    output = ""
+    for word in words:
+        output += emojis.get(word, word) + " "
+    return output
+message = input("> ")
+print(emoji_converter(message))
+print("Hello, World!")
+try:
+    age = int(input("Age: "))
+    income = 20000
+    risk = income / age
+    print(age)
+except ZeroDivisionError:
+    print("Age cannot be 0.")
+except ValueError:
+    print("Invalid value")
+
+
+print("Hello, World!")
+class Point:
+
+
+
+    def move(self):
+        print("move")
+    def draw(self):
+        print("draw")       
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y  
+point1 = Point(10, 20)
+print(point1.x)
+print(point1.y)
+
+
+for word in words: 
+    output += emojis.get(word, word) + " "
+print(output)
+print("Hello, World!")
+class Point:
+    
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y  
+
+    def move(self):
+        print("move")
+    def draw(self):
+        print("draw")
+point1 = Point(10, 20)
+print(point1.x)
+print(point1.y)
+point1.x = 11
+print(point1.x)
+point1.y = 22
+print(point1.y)
+point1.draw()
+point1.move()
+
+
+print("Hello, World!")
+def greet_user(first_name, last_name):
+    print(f"Hello {first_name} {last_name}")
+    print("Welcome aboard")
+greet_user("John", "Doe")
+greet_user("Mary", "Smith")
+greet_user("Jane", "Johnson")
+# This is a simple Python script that demonstrates variable assignment and printing to the console.
+print("Hello, World!")
+def square(number):
+    return number * number
+result = square(3)
+print(result)
+print("Hello, World!")
+def square(number):
+    return number * number
+print(square(3))
+print(square(4))
+print(square(5))    
+
+
+
 
