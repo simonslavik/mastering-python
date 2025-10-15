@@ -415,4 +415,65 @@ for i in range(5, 10, 2):
     print(i)
 
 
-                
+
+
+started = False
+
+while True:
+    command = input("> ").lower()
+    if command == "start":
+        if started:
+            print("Car is already started!")
+        else:
+            started = True
+            print("Car started...Ready to go!")
+    elif command == "stop":
+        if not started:
+            print("Car is already stopped!")
+        else:
+            started = False
+            print("Car stopped.")
+    elif command == "help":
+        print("""
+start - to start the car
+stop - to stop the car
+quit - to exit
+""")
+    elif command == "quit":
+        break
+    else:
+        print("I don't understand that...")
+# This is a simple Python script that demonstrates variable assignment and printing to the console.
+print("Hello, World!")
+
+for item in "python":
+    print(item)
+print("Hello, World!")
+print("Hello, World!")
+print("Hello, World!")
+print("Hello, World!")
+print("Hello, World!")
+
+for item in ["Mosh", "John", "Sarah"]:
+    print(item)
+print("Hello, World!")
+
+for item in range(10):
+    print(item)
+print("Hello, World!")
+
+for item in range(5, 10, 2):
+    print(item)
+print("Hello, World!")
+
+for item in range(5):
+    for x in range(3):
+        print(item, x)
+print("Hello, World!")
+
+for x in range(4):
+    for y in range(3):
+        print(f"({x}, {y})")
+print("Hello, World!")
+
+
